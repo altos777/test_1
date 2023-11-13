@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<header>
+    <h2>Вариант 1 строчный (li {display: inline})</h2>
+    <nav>
+        <ul id="header1">
+            <li><a href="">Home</a></li>
+            <li><a href="">Work</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <h2>Вариант 2 плавающий (li {float: left})</h2>
+    <nav>
+        <ul id="header2">
+            <li><a href="">Home</a></li>
+            <li><a href="">Work</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <h2>Вариант 3 строчно-блочный (li {display: inline-block})</h2>
+    <nav>
+        <ul id="header3">
+            <li><a href="">Home</a></li>
+            <li><a href="">Work</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+    <h2>Вариант 4 flexbox</h2>
+    <nav>
+        <ul id="header4">
+            <li><a href="">Home</a></li>
+            <li><a href="">Work</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<table id="product">
+    <caption><h3>Перечень товаров</h3></caption>
+    <thead>
+        <tr style="height: 40px; background-color: rgb(245, 247, 177);">
+            <th style="width: 200px;">Изображение</th>
+            <th style="width: 200px;">Товар</th>
+            <th style="width: 100px;">Кол-во</th>
+            <th style="width: 100px;">Цена, ₽</th>
+            <th style="width: 120px;">Стоимость, ₽</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr style="height: 60px;"><td></td><td></td><td></td><td></td><td></td></tr>        
+        <tr style="height: 60px;"><td></td><td></td><td></td><td></td><td></td></tr>        
+        <tr style="height: 60px;"><td></td><td></td><td></td><td></td><td></td></tr>        
+    </tbody>
+    <tfoot><tr style="height: 40px; background-color: rgb(245, 247, 177);">  
+        <td colspan="4" style="text-align: right;"><b style="padding-right: 20px;">Суммарная стоимость:</b> </td>
+        <td></td> 
+    </tr></tfoot>
+</table>
+<form>
+    <table id="opros" style="width: 95%;">
+        <caption><h3>Мои фавориты</h3></caption>
+        <tbody id="opros_body">
+            <tr><td>Еда:</td><td><input></td></tr>
+            <tr><td>Напиток:</td><td><input></td></tr>
+            <tr><td>Запах:</td><td><input></td></tr>
+            <tr><td>Цвет:</td><td><input></td></tr>
+            <tr><td>Книга:</td><td><input></td></tr>
+            <tr><td>Фильм:</td><td><input></td></tr>
+            <tr><td>Песня:</td><td><input></td></tr>
+            <tr><td>Группа:</td><td><input></td></tr>
+            <tr><td>Эмоджи:</td><td><input></td></tr>
+            <tr><td>Город:</td><td><input></td></tr>
+            <tr><td>Время года:</td><td><input></td></tr>
+            <tr><td>Праздник:</td><td><input></td></tr>
+            <tr><td>Человек:</td><td><input></td></tr>
+        </tbody>
+        <tfoot><tr><td colspan="2" style="text-align: center;"><input type="submit"></td></tr></tfoot>
+    </table> 
+</form>    
+</body>
+</html>

@@ -1,0 +1,101 @@
+a {
+    text-decoration: none;
+    padding: 10px 40px;
+    color: rgb(53, 6, 161);
+    font-size: 24px;
+    background-color: rgb(246, 250, 30);
+    border-right: solid 1px;
+    border-color: rgb(163, 161, 6);
+}
+
+a:hover {
+    background-color: rgb(245, 247, 177);
+    color: darkred;
+    border: groove 1px;
+    padding: 8px 40px 8px 39px;
+}
+
+ul {
+    list-style: none;
+    margin: 20px 0;
+    padding-left: 0;
+    background-color: rgb(245, 247, 177);
+}
+
+#header1 li {
+    display: inline;
+    margin-right: -4px;
+}
+#header1 a {
+    display: inline-block;
+}
+
+a {
+    display: block;
+}
+
+#header2 {
+    overflow: hidden;
+}
+
+#header2 li {
+    float: left;
+}
+
+
+#header3 li {
+    display: inline-block;
+    margin-right: -4px;
+}
+
+
+#header4 {
+    display: flex;
+}
+
+h3 {
+    margin: 0;
+    padding: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 50px auto 0 auto;
+}
+form {
+    width: 300px;
+    background-color: bisque;
+    margin: 50px auto;
+    padding-bottom: 20px;
+}
+#product caption {
+    border-left: 1px solid  rgb(163, 161, 6);
+    border-top: 1px solid  rgb(163, 161, 6);
+    border-right: 1px solid  rgb(163, 161, 6);
+    background-color: rgb(245, 247, 177);
+}
+#product th,
+#product td {
+    border: 1px solid  rgb(163, 161, 6);
+    color: rgb(53, 6, 161);
+}
+
+#opros tr {
+    height: 30px;
+    background-color: bisque;
+    border: 3px solid white;
+}
+
+#opros td {
+    text-align: right;
+}
+#opros_body input {
+    background-color: bisque;
+    border: 1px solid black;
+    width: 180px;
+}
+
+#opros_body input:hover {
+    border: 2px solid black;
+    width: 176px;
+}
